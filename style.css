@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #1ca68f;
+}
+.container {
+  background-color: #ffd4c1;
+  width: 80vw;
+  margin-top: 250px;
+  max-width: 37.5em;
+  padding: 3em 2.5em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.62em;
+  box-shadow: 0 1.25em 1.8em rgba(8, 21, 65, 0.25);
+}
+.search-wrapper {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1.25em;
+}
+.search-wrapper button {
+  font-size: 1em;
+  background-color: #3eb7b2;
+  color: #ffffff;
+  padding: 0.8em 0;
+  border: none;
+  border-radius: 1.5em;
+  cursor: pointer;
+}
+.search-wrapper input {
+  font-size: 1em;
+  padding: 0 0.62em;
+  border: none;
+  background-color: #ffd4c1;
+  border-bottom: 2px solid #3eb7b2;
+  outline: none;
+  color: #0c003f;
+}
+#result {
+  margin-top: 1.25em;
+}
+.container .flag-img {
+  display: block;
+  width: 45%;
+  min-width: 7.5em;
+  margin: 1.8em auto 1.2em auto;
+}
+.container h2 {
+  font-weight: 600;
+  color: #222a43;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8em;
+}
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.3px;
+}
+.container h4 {
+  display: inline;
+  font-weight: 500;
+  color: #222a43;
+}
+.container span {
+  color: #5d6274;
+}
+.container h3 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #ff465a;
+}
+.search-btn {
+  background-color: #3eb7b2; /* Warna latar belakang */
+  border: none; /* Tidak ada border */
+  color: white; /* Warna teks */
+  padding: 10px 20px; /* Ukuran padding */
+  text-align: center; /* Teks rata tengah */
+  text-decoration: none; /* Tidak ada dekorasi teks */
+  display: inline-block; /* Display inline-block agar button menempati lebar sesuai dengan konten */
+  font-size: 16px; /* Ukuran font */
+  margin: 10px 2px; /* Margin */
+  cursor: pointer; /* Menampilkan cursor tangan saat pointer di atas button */
+  border-radius: 5px; /* Border radius */
+}
+.judul {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  font-size: 40px;
+}
